@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #f6f7f8;
+}
+
+.demo-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.demo-sidebar {
+  width: 200px;
+  padding: 16px 12px;
+}
+
+@media (max-width: 640px) {
+  .demo-header {
+    padding: 0 12px;
+  }
+  .demo-sidebar {
+    width: 128px;
+    padding: 16px 8px;
+  }
+}
